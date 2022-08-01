@@ -11,6 +11,7 @@ function randomSquare() {
     })
     let randomPosition = squares[Math.floor(Math.random() * 9)]
     console.log(randomPosition)
+    console.log(Math.floor(Math.random() * 9))
 }
 
 randomSquare()
